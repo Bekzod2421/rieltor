@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="33" viewBox="0 0 38 33">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 45px;
+        fill: #3556d3;
+        text-anchor: middle;
+        font-family: Montserrat;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="percent.svg" class="cls-1" x="19.08" y="32.968"><tspan x="19.08">%</tspan></text>
+</svg>

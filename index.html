@@ -1,0 +1,811 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website</title>
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/isotope-docs.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="css/remodal-default-theme.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="site">
+
+<div class="site__wrapper">
+
+	<header class="site-header">
+		<div class="site-header__top">
+			<div class="htop inner">
+				<ul class="hmenu flex menu">
+					<li><a href="#">Главная</a></li>
+					<li class="active"><a href="#">О компании</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Каталог объектов</a>
+						<ul>
+							<li class="active"><a href="#">Новостройки</a></li>
+							<li><a href="#">Вторичный рынок</a></li>
+							<li><a href="#">Земельные участки</a></li>
+							<li><a href="#">Дома</a></li>
+							<li><a href="#">Нежилые помещения</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Партнеры</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<form class="hform" action="">
+					<div>
+						<input type="search" placeholder="Поиск по сайту">
+						<button><img src="img/ser.svg" alt=""></button>
+					</div>
+				</form>
+				<div class="mburger"><img src="img/mburger.svg"></div>
+			</div>
+		</div>
+		<div class="site-header__center">
+			<div class="hcen inner">
+				<div class="hlogo">
+					<a href="#">Название компании</a>
+					<div>Вид деятельности</div>
+				</div>
+				<div class="hcon">
+					<div class="hcon__add">
+						<div><img src="img/loc.svg" alt=""></div>
+						<span>г. Ташкент, ул. Петроваская, д. 89, офис 54</span>
+					</div>
+					<div class="hcon__tel">
+						<div><img src="img/tel.svg" alt=""></div>
+						<span>
+							<a href="tel:#">+7 (000) 000 00 00 </a>
+							<a href="tel:#">+7 (000) 000 00 00</a>
+						</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="site-header__bottom">
+		</div>
+	</header> <!-- .site-header -->
+	
+	<div class="site-container">
+
+		<main class="site-container__main">
+		
+			<div class="three">
+				<!----------------------------------- MEIN SLIDER ---------------------------->
+				<div class="mslide owl-carousel">
+					<div class="mslide__it item">
+						<img src="img/s1.png" alt="">
+					</div>
+					<div class="mslide__it item">
+						<img src="img/s1.png" alt="">
+					</div>
+				</div>
+				<!----------------------------------- MEIN SLIDER END ---------------------------->
+		
+		
+				<!----------------------------------- RIELTER SERVICE ---------------------------->
+				<div class="relservice">
+					<div class="rel inner">	
+						<div>Риэлторские услуги</div>
+						<span>Оставьте заявку и наши специалисты помогут вам</span>
+						<a href="#modal" data-remodal-target="modal">Оставить заявку</a>
+					</div>
+				</div>
+				<!----------------------------------- RIELTER SERVICE END ---------------------------->
+		
+		
+				<!----------------------------------- MAIN FILTER ---------------------------->
+				<div class="mfilter inner">
+					<form action="">
+						<div class="fit">
+							<div class="fit__tit">Тип недвижимости</div>
+							<select name="" id="">
+								<option value="" disabled selected>Выбрать тип</option>
+							</select>
+						</div>
+						<div class="fit">
+							<div class="fit__tit">Тип предложения</div>
+							<select name="" id="">
+								<option value="" disabled selected>Все</option>
+							</select>
+						</div>
+						<div class="fit">
+							<div class="fit__tit">Район</div>
+							<select name="" id="">
+								<option value="" disabled selected>Все</option>
+							</select>
+						</div>
+						<div class="fit">
+							<div class="fit__tit"></div>
+							<button>Расширенный поиск</button>
+						</div>
+					</form>
+				</div>
+				<!----------------------------------- MAIN FILTER END ---------------------------->
+			</div>
+		
+			<!----------------------------------- MAIN CATALOGIE ---------------------------->
+			<div class="mcat inner">
+				<div class="mcat__top">
+					Каталог недвижимости
+				</div>
+				<div class="mcat__body" id="options">
+					<div class="filters button-group">
+						<button class="button" data-filter=".buy">Купить</button>
+						<button class="button is-checked" data-filter=".sell">Продать</button>
+						<button class="button" data-filter=".give">Сдать</button>
+						<button class="button" data-filter=".get">Снять</button>
+						<button class="button" data-filter=".flat">Квартиры</button>
+						<button class="button" data-filter=".room">Комнаты</button>
+						<button class="button" data-filter=".area">Земляной участок</button>
+						<button class="button" data-filter=".home">Дом</button>
+					</div>
+		
+					<div class="mcat-it grid">
+						<a href="#" class="home-item sell">
+							<div class="home-item__type">Продаётся</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="home-item sell">
+							<div class="home-item__type">Продаётся</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="home-item sell">
+							<div class="home-item__type">Продаётся</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="home-item sell">
+							<div class="home-item__type">Продаётся</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="home-item buy">
+							<div class="home-item__type">Продаётся</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="home-item give">
+							<div class="home-item__type">Аренда</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="home-item get">
+							<div class="home-item__type">Продаётся</div>
+							<div class="home-item__ig">
+								<img src="img/f1.png" alt="">
+								<div class="like">
+									<img src="img/like.svg" alt="">
+								</div>
+							</div>
+							<div class="home-item__body">
+								<div class="home-item__body-name">Стронг хаус</div>
+								<div class="home-item__body-loc">
+									<img src="img/hloc.svg" alt="">
+									<span>г. Ферагна, ул. Лесная, д. 16</span>
+								</div>
+								<div class="home-item__body-price">
+									<div>2,890,500 у.е</div>
+									<span>Подробнее <img src="img/more.svg" alt=""></span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="mcat__body-all">
+						<a href="#">Загрузить ещё <img src="img/load.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<!----------------------------------- MAIN CATALOGIE END ---------------------------->
+		
+		
+			<!----------------------------------- ADVENTAGES ---------------------------->
+			<div class="adven">
+				<div class="adv inner">
+					<div class="adven-body">
+						<div class="adven-it">
+							<div class="adven-img"><img src="img/home.svg" alt=""></div>
+							<div class="adven-tit">Лучшая недвижимость</div>
+							<span>Примерный текст подробности преимущества описание деятельности
+							</span>
+						</div>
+						<div class="adven-it">
+							<div class="adven-img"><img src="img/ping.svg" alt=""></div>
+							<div class="adven-tit">Самые низкие цены</div>
+							<span>Примерный текст подробности преимущества описание деятельности
+							</span>
+						</div>
+						<div class="adven-it">
+							<div class="adven-img"><img src="img/percent.svg" alt=""></div>
+							<div class="adven-tit">Минимальная коммисия</div>
+							<span>Примерный текст подробности преимущества описание деятельности
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!----------------------------------- ADVENTAGES END ---------------------------->
+		
+		
+			<!----------------------------------- BEST HOME ---------------------------->
+			<div class="best inner">
+				<div class="best__tit mtit">Лучшая недвижимость</div>
+				<div class="best__slider owl-carousel">
+					<a href="#" class="best-it sell item">
+						<div class="best-it__type">Продаётся</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="best-it give item">
+						<div class="best-it__type">Аренда</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="best-it buy item">
+						<div class="best-it__type">Продаётся</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="best-it give item">
+						<div class="best-it__type">Аренда</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="best-it buy item">
+						<div class="best-it__type">Продаётся</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="best-it buy item">
+						<div class="best-it__type">Продаётся</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="best-it buy item">
+						<div class="best-it__type">Продаётся</div>
+						<div class="best-it__ig">
+							<img src="img/f1.png" alt="">
+							<div class="best-it__ig-like">
+								<img src="img/like.svg" alt="">
+							</div>
+						</div>
+						<div class="best-it__body">
+							<div class="best-it__body-name">Стронг хаус</div>
+							<div class="best-it__body-loc">
+								<img src="img/hloc.svg" alt="">
+								<span>г. Ферагна, ул. Лесная, д. 16</span>
+							</div>
+							<div class="best-it__body-price">
+								<div>2,890,500 у.е</div>
+								<span>Подробнее <img src="img/more.svg" alt=""></span>
+							</div>
+						</div>
+					</a>
+				</div>		
+			</div>
+			<!----------------------------------- BEST HOME END ---------------------------->
+		
+		
+			<!----------------------------------- COMMENT ---------------------------->
+			<div class="com">
+				<div class="comment inner">
+					<div class="com-slider owl-carousel">
+						<div class="com-it item">
+							<div class="com-it__img">
+								<img src="img/3_06.png" alt="">
+							</div>
+							<div class="com-it__body">
+								<div class="com-tit">
+									2 000+ Довольных клиента
+								</div>
+								<div class="com-text">
+									Очень доволен покупкой загородного дома ваши ребята молодцы подобрали самое оптимальное решение которое сразу меня зацыпило. Отдельная благодарность Ихтиёру он просто знает что нужно клиенту.
+								</div>
+								<div class="com-owner">
+									<div class="com-owner__img">
+										<img src="img/cname.png" alt="">
+									</div>
+									<div class="com-owner__text">
+										<div>Дамир</div>
+										<span>Вольнодумец и мечтатель, просто хороший человек</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="com-it item">
+							<div class="com-it__img">
+								<img src="img/3_06.png" alt="">
+							</div>
+							<div class="com-it__body">
+								<div class="com-tit">
+									2 000+ Довольных клиента
+								</div>
+								<div class="com-text">
+									Очень доволен покупкой загородного дома ваши ребята молодцы подобрали самое оптимальное решение которое сразу меня зацыпило. Отдельная благодарность Ихтиёру он просто знает что нужно клиенту.
+								</div>
+								<div class="com-owner">
+									<div class="com-owner__img">
+										<img src="img/cname.png" alt="">
+									</div>
+									<div class="com-owner__text">
+										<div>Дамир</div>
+										<span>Вольнодумец и мечтатель, просто хороший человек</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!----------------------------------- COMMENT END ---------------------------->
+		
+		
+			<!----------------------------------- EVENTS ---------------------------->
+			<div class="even">
+				<div class="events inner">
+					<div class="events__top mtit">События компании</div>
+					<div class="events__slide owl-carousel">
+						<div class="even-it item">
+							<div class="even-it__date">
+								<div class="eday">12</div>
+								<div>
+									<span>12.</span>
+									<span>19</span>
+								</div>
+							</div>
+							<div class="even-it__body">
+								<div>Событие компании</div>
+								<span>
+									Примерный текст события, новости нашей комании 
+									который будет отображаться в данном разделе. 
+									Наглядное текстовое наполнение данного блока 
+									новостей.
+								</span>
+								<a href="#">Подробнее<img src="img/ymore.svg" alt=""></a>
+							</div>
+						</div>
+						<div class="even-it item">
+							<div class="even-it__date">
+								<div class="eday">20</div>
+								<div>
+									<span>12.</span>
+									<span>19</span>
+								</div>
+							</div>
+							<div class="even-it__body">
+								<div>Событие компании</div>
+								<span>
+									Примерный текст события, новости нашей комании 
+									который будет отображаться в данном разделе. 
+									Наглядное текстовое наполнение данного блока 
+									новостей.
+								</span>
+								<a href="#">Подробнее<img src="img/ymore.svg" alt=""></a>
+							</div>
+						</div>
+						<div class="even-it item">
+							<div class="even-it__date">
+								<div class="eday">12</div>
+								<div>
+									<span>12.</span>
+									<span>19</span>
+								</div>
+							</div>
+							<div class="even-it__body">
+								<div>Событие компании</div>
+								<span>
+									Примерный текст события, новости нашей комании 
+									который будет отображаться в данном разделе. 
+									Наглядное текстовое наполнение данного блока 
+									новостей.
+								</span>
+								<a href="#">Подробнее<img src="img/ymore.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!----------------------------------- EVENTS END ---------------------------->
+		
+			<!----------------------------------- COMPANY ---------------------------->
+			<div class="comp">
+				<div class="compy inner">
+					<div class="compy__slider owl-carousel">
+						<a href="#" class="comp-it item">
+							<img src="img/c1.png" alt="">
+						</a>
+						<a href="#" class="comp-it item">
+							<img src="img/c2.png" alt="">
+						</a>
+						<a href="#" class="comp-it item">
+							<img src="img/c3.png" alt="">
+						</a>
+						<a href="#" class="comp-it item">
+							<img src="img/c4.png" alt="">
+						</a>
+						<a href="#" class="comp-it item">
+							<img src="img/c4.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<!----------------------------------- COMPANY END ---------------------------->
+		
+			<!----------------------------------- QUESTION ---------------------------->
+			<div class="ques">
+				<div class="question inner">
+					<div class="question__top">
+						<div class="mtit">Остались вопросы ?</div>
+						<span>Оставьте заявку и наши специалисты свяжутся с вами в ближайшее время
+						</span>
+					</div>
+					<form action="" class="question__form">
+						<div class="question__form-it">
+							<input type="text" placeholder="Имя">
+						</div>
+						<div class="question__form-it">
+							<input type="tell" placeholder="Телефон">
+						</div>
+						<div class="question__form-it">
+							<button>Отправить</button>
+						</div>
+						<div class="question__form-radio">
+							<label for="">
+								<input type="checkbox">
+								<span>Заполняя форму я даю согласие на обработку персональных данных</span>
+								
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!----------------------------------- QUESTION END ---------------------------->
+		
+		</main>
+		<!-- .site-main -->
+
+	</div>
+	<div class="remodal" data-remodal-id="modal">
+	  <button data-remodal-action="close" class="remodal-close"><img src="img/mclose.svg" alt=""></button>
+	  	<div class="remodal__tit">
+			Обратная связь
+		</div>
+		<form action="">
+			<div class="mform-it">
+				<input type="text" placeholder="Введите Ваше имя">
+			</div>
+			<div class="mform-it">
+				<input type="text" placeholder="Ваш телефон">
+			</div>
+			<div class="mform-it">
+				<textarea name="" id="" placeholder="Комментарии"></textarea>
+			</div>
+			<div class="mform-it">
+				<label for="">
+					<input type="checkbox">
+					<span>Я подтверждаю свое согласие  на обработку моих персональных данных</span>
+				</label>
+			</div>
+			<div class="mform-it">
+				<button>Отправить заявку</button>
+			</div>
+		</form>
+	</div>
+	 <div class="mobile"></div>
+	 <div class="mobile-close"><img src="img/mclose.svg" alt=""></div>
+	<div class="menu-bg"></div>
+	<footer class="site-footer">
+	
+		<div class="fcon">
+		<!----------------------------------- FOOTER MENU ---------------------------->
+			<div class="fmenu inner">
+				<div class="fmenu__it">
+					<div class="fmenu__it-tit">
+						Продажа
+					</div>
+					<ul class="menu-default">
+						<li><a href="#">Квартиры</a></li>
+						<li><a href="#">Офиса</a></li>
+						<li><a href="#">Магазина</a></li>
+						<li><a href="#">Помещения</a></li>
+						<li><a href="#">Склада</a></li>
+					</ul>
+				</div>
+				<div class="fmenu__it">
+					<div class="fmenu__it-tit">
+						Аренда
+					</div>
+					<ul class="menu-default">
+						<li><a href="#">Квартиры</a></li>
+						<li><a href="#">Офиса</a></li>
+						<li><a href="#">Магазина</a></li>
+						<li><a href="#">Помещения</a></li>
+						<li><a href="#">Склада</a></li>
+					</ul>
+				</div>
+				<div class="fmenu__it tels">
+					<div class="fmenu__it-tit">
+						Контакты
+					</div>
+					<ul class="menu-default">
+						<li>
+							<div><img src="img/ftel.svg" alt=""></div>
+							<span><a href="tel:#">+7 (495) 748-75-88</a></span>
+						</li>
+						<li><div><img src="img/floc.svg" alt=""></div>
+							<span><div>Адрес</div> <div>г. Ташкент, ул. 	Петроваская, д. 89, офис 54</div>
+							</span>
+						</li>
+						<li><div><img src="img/fmail.svg" alt=""></div>
+							<span><a href="mailto:#">laimmebel@yandex.ru</a></span>
+						</li>
+					</ul>
+				</div>
+				
+			<!-- </div> -->
+		<!----------------------------------- FOOTER MENU ---------------------------->
+	
+	
+		<!----------------------------------- FOOTER TEXT ---------------------------->
+			<!-- <div class="ftext inner"> -->
+				<div class="ftime">
+					<div class="ftime__top">
+						<img src="img/ftime.png" alt="">
+						<span>Время работы</span>
+					</div>
+					<ul class="menu-default">
+						<li><div>Понедельник</div><span>Закрыто</span></li>
+						<li><div>Вторник</div><span><time>10:00</time><span>-</span><time>19:00</time></span></li>
+						<li><div>Среда</div><span><time>10:00</time><span>-</span><time>19:00</time></span></li>
+						<li><div>Четверг</div><span><time>10:00</time><span>-</span><time>19:00</time></span></li>
+						<li><div>Пятница</div><span><time>10:00</time><span>-</span><time>19:00</time></span></li>
+						<li><div>Суббота</div><span><time>10:00</time><span>-</span><time>19:00</time></span></li>
+						<li><div>Воскресенье</div><span><time>10:00</time><span>-</span><time>19:00</time></span></li>
+					</ul>
+				</div>
+				<div class="fadd">
+					<div>Мы находимся</div>
+					<div>Арентир с каким зданием или учериждением находится офис</div>
+				</div>
+				<div class="fsoc">
+					<div>Мы в соц сетях:</div>
+					<ul>
+						<li><a href="#"><img src="img/wk.svg" alt=""></a></li>
+						<li><a href="#"><img src="img/face.svg" alt=""></a></li>
+						<li><a href="#"><img src="img/ins.svg" alt=""></a></li>
+						<li><a href="#"><img src="img/twit.svg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="upper">
+					<img src="img/up.svg" alt="">
+				</div>
+			</div>
+			<!----------------------------------- FOOTER TEXT END ---------------------------->
+		</div>
+	
+		<!----------------------------------- FOOTER BOTTOM ---------------------------->
+		<div class="fbottom">
+			<div class=" fbot inner">
+				<div class="fbot__text">
+					Расчет и цены представленные на сайте не являются публичной афертой 
+					и представлены в ознакомительных целях. Итоговая стоимость на сайте 
+					может отличаться от фактической стоимости в нашей фирме. 
+					Политика конфеденциальности.
+				</div>
+				<div class="fbot__copy">
+					<div><span>Copyright © 2019</span><a href="#">Название компании</a></div>
+					<a href="#">Разработано в компании Redimer</a>
+				</div>
+			</div>
+		</div>
+	
+		<!----------------------------------- FOOTER BOTTOM END ---------------------------->
+		
+	</footer>
+	<!-- .site-footer -->
+
+</div>
+
+<script src="js/plugins.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/remodal.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script src="js/flexmenu.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/main.js"></script>
+<!-- DESIGN & DEVELOPEMENT REDIMER.UZ -->
+</body>
+</html>
